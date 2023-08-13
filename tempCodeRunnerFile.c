@@ -5,7 +5,7 @@ int main() {
     int rows1, cols1, rows2, cols2, rows3, cols3, rows4, cols4;
     int i, j, k;
 
-    printf(             "Enter Matrix1 : \n");
+    printf("Enter Matrix1 : \n");
     printf("Enter number of rows and columns : ");
     scanf("%d %d", &rows1, &cols1);
     for(i = 0; i < rows1; i++) {
