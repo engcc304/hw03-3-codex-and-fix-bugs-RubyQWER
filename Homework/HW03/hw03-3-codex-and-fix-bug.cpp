@@ -17,7 +17,7 @@ int main() {
     
     printf( "\nEnter Matrix2 : \n" ) ;
     printf( "Enter number rows and columns : " ) ;
-    scanf ( "%d %d", rows2, &cols2 ) ;
+    scanf ( "%d %d", &rows2, &cols2 ) ;
     for( i = 0 ; i < rows2 ; i++ ) {
         for( j = 0 ; j < cols2 ; j++ ) {
             printf( "Enter [%d %d] value : ", &i , &j ) ;
